@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ForecastFiles
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //ForecastFile file = new ForecastFile();
+            //file.ReadFile(@"C:\Users\dumile.chiwuta\Desktop\ColumnData.txt");
+
+            Console.WriteLine(DateTime.Today.AddDays(8).ToString("dd/MM/yyyy"));
+
+                      
+        }
+    }
+}
